@@ -11,14 +11,15 @@ public class Main {
     }
 
     //Parte 1
-    public static int sumar3numeros(int a, int b, int c){
-        return a+b+c;
+    public static void sumar3numeros(int a, int b, int c){
+        System.out.println(a+b+c);
     }
     //Parte 1
 }
 
 //Parte 2
-class Coche{
+class Coche {
+    
     public int puertas = 0;
 
     public void aumentarPuertas(){
